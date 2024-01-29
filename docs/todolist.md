@@ -1,0 +1,1 @@
+- [] Auth sistemine gore methodlar guncellenecek

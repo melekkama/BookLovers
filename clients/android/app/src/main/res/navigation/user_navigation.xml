@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    android:label="@string/home"
+    app:startDestination="@id/homeFragmentNav">
+    <fragment
+        android:id="@+id/homeFragmentNav"
+        android:name="com.example.cherubook.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragmentNav_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragmentNav"
+        android:name="com.example.cherubook.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/searchFragmentNav"
+        android:name="com.example.cherubook.ui.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragmentNav_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.example.cherubook.ui.books.bookDetail.BookDetailFragment"
+        android:label="Book Detail"
+        tools:layout="@layout/fragment_book_detail">
+        <argument
+            android:name="book_data"
+            app:argType="com.example.cherubook.models.books.Book" />
+    </fragment>
+</navigation>

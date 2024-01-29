@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cherubook</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="action_info">Info</string>
+
+    <string name="ex_offline_exception">No Internet Connection</string>
+    <string name="ex_common_error">A problem occurred, please try again later</string>
+
+    <string name="registration_complete">User registration is complete, you can log in!</string>
+    <string name="error_title">Error!</string>
+    <string name="loading">Loading…</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="book_name">[BOOK NAME]</string>
+    <string name="username">[UserName]</string>
+    <string name="_20_minutes_ago">20 minutes ago</string>
+    <string name="bookimage">bookimage</string>
+    <string name="book_name_placeholder">[BOOK NAME]</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="likebutton">likebutton</string>
+    <string name="dislike_button">dislike_button</string>
+    <string name="category">[Category]</string>
+    <string name="isbn">ISBN:</string>
+    <string name="pottermore_publishing">Pottermore Publishing</string>
+    <string name="isbn_example">9781789390810</string>
+    <string name="full_name">[Full Name]</string>
+    <string name="email">[Email]</string>
+</resources>
